@@ -1,0 +1,14 @@
+on:
+  push:
+    branches:
+      - 'main'
+jobs:
+  rundeploy:
+    name: deploy to production
+    runs-on: self-hosted
+    steps:
+            - uses: actions/checkout@v2
+            - name: Run echo scripts
+              run: |
+                      echo "Running "
+                      echo "another line here and there"
