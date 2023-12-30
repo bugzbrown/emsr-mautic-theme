@@ -1,0 +1,1 @@
+# emsr-mautic-theme
